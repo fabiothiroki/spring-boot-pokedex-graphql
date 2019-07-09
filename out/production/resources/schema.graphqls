@@ -1,5 +1,8 @@
-type Article {
+type Pokemon {
     id: ID!
-    title: String!
-    text: String!
+    name: String!
+}
+
+type Query {
+    pokemon(id: ID!): Pokemon
 }

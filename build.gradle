@@ -24,6 +24,7 @@ repositories {
 dependencies {
 	compile 'com.graphql-java-kickstart:graphql-spring-boot-starter:5.10.0'
 	compile 'com.graphql-java-kickstart:graphql-java-tools:5.6.0'
+	runtime 'com.graphql-java-kickstart:graphiql-spring-boot-starter:5.10.0'
 
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'

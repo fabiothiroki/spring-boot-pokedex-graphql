@@ -1,4 +1,4 @@
-package com.example.demo.Pokemon;
+package com.example.demo.pokemon;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
