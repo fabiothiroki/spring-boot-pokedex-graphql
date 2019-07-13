@@ -26,9 +26,9 @@ dependencies {
 	compile 'com.graphql-java-kickstart:graphql-java-tools:5.6.0'
 	runtime 'com.graphql-java-kickstart:graphiql-spring-boot-starter:5.10.0'
 
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	runtimeOnly 'org.postgresql:postgresql'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.1.6.RELEASE'
+	implementation 'org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools:2.1.6.RELEASE'
+	runtimeOnly 'org.postgresql:postgresql:42.2.5'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.1.6.RELEASE'
 }
