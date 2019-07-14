@@ -31,4 +31,5 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools:2.1.6.RELEASE'
 	runtimeOnly 'org.postgresql:postgresql:42.2.5'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:2.1.6.RELEASE'
+	testCompile 'com.graphql-java-kickstart:graphql-spring-boot-starter-test:5.10.0'
 }
