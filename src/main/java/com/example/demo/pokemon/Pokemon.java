@@ -14,6 +14,8 @@ import java.util.Map;
 @JsonIgnoreProperties(value = { "type", "base" })
 public class Pokemon {
 
+    public Pokemon() {}
+
     public Pokemon(final Long id, final String name) {
         this.id = id;
         this.name = name;
