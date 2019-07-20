@@ -15,5 +15,4 @@ public class Query implements GraphQLQueryResolver {
     public Pokemon getPokemon(Long id) {
         return repository.findById(id).orElse(null);
     }
-
 }

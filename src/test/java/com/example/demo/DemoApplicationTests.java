@@ -42,5 +42,4 @@ public class DemoApplicationTests {
 		assertEquals("1", response.get("$.data.pokemon.id"));
 		assertEquals("Pikachu", response.get("$.data.pokemon.name"));
 	}
-
 }
